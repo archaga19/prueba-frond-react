@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const mostrarAlerta = () => {
-    alert('¡Mi app está funcionando');
+    alert('¡SI FUNCIONA!');
   };
 
   return (
