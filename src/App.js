@@ -10,7 +10,7 @@ function App() {
           Test de proyecto
         </h1>
         <p>
-          despliegue en Vercel
+          estamos en versel!!!
         </p>
         <a
           className="App-link"
