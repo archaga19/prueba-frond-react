@@ -32,7 +32,7 @@ function App() {
             fontWeight: 'bold'
           }}
         >
-          version 3.0
+          version 4.0
         </div>
 
         {/* BOTÓN debajo del cuadro */}
