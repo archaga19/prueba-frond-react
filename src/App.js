@@ -19,7 +19,7 @@ function App() {
          desplegada en Vercel!!! 
         </p>
         
-        {/* Cuadro con versión 4.0 */}
+        {/* Cuadro con versión 4.2 */}
         <div 
           style={{
             border: '2px solid #010b0dff',
@@ -42,8 +42,8 @@ function App() {
           style={{
             padding: '12px 24px',
             fontSize: '18px',
-            backgroundColor: '#61dafb',
-            color: '#282c34',
+            backgroundColor: '#dbe2e3ff',
+            color: '#032e84ff',
             border: 'none',
             borderRadius: '8px',
             cursor: 'pointer',
