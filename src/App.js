@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* Logo más pequeño */}
+        <img src={logo} className="App-logo" style={{ width: '150px', height: '150px' }} alt="logo" />
+        
         <h1>
           ¡Test de proyecto! 
         </h1>
@@ -17,7 +19,23 @@ function App() {
          desplegada en Vercel!!! 
         </p>
         
-        {/* BOTÓN NUEVO */}
+        {/* Cuadro con versión 2.0 */}
+        <div 
+          style={{
+            border: '2px solid #61dafb',
+            borderRadius: '8px',
+            padding: '20px',
+            margin: '20px 0',
+            backgroundColor: 'rgba(97, 218, 251, 0.1)',
+            color: '#61dafb',
+            fontSize: '24px',
+            fontWeight: 'bold'
+          }}
+        >
+          version 3.0
+        </div>
+
+        {/* BOTÓN debajo del cuadro */}
         <button 
           className="boton-alerta"
           onClick={mostrarAlerta}
