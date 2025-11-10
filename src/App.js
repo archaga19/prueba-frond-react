@@ -19,14 +19,14 @@ function App() {
          desplegada en Vercel!!! 
         </p>
         
-        {/* Cuadro con versión 2.0 */}
+        {/* Cuadro con versión 4.0 */}
         <div 
           style={{
-            border: '2px solid #61dafb',
+            border: '2px solid #010b0dff',
             borderRadius: '8px',
             padding: '20px',
             margin: '20px 0',
-            backgroundColor: 'rgba(97, 218, 251, 0.1)',
+            backgroundColor: 'rgba(209, 226, 231, 0.1)',
             color: '#61dafb',
             fontSize: '24px',
             fontWeight: 'bold'
